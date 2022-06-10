@@ -1,0 +1,101 @@
+main{
+
+    background-image:linear-gradient(180deg, #000000 17.08%, rgba(0, 0, 0, 0) 100%), url(../img/estrelas.png);
+}
+.inicio{
+    background-image:linear-gradient(0.15deg, #000000 0.56%, rgba(0, 0, 0, 0) 99.86%), url(../img/gif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    color: #0BF7FF;
+    text-shadow: 7px 7px #2B097C;
+    font-size: 10rem;
+    font-family: 'VT323', monospace;
+}
+#gif{
+    border: solid 2px #F2B33D;
+}
+section{ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    
+}
+.sobremim-container{
+    display: flex;
+    justify-content: space-around;
+    color: #F2B33D;
+    font-family: 'Roboto Mono', monospace;
+}
+p{
+    font-size: 2rem;
+    color: #F2B33D;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;  
+    color: #F2B33D;
+    padding-bottom: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.titulo-projetos{
+    padding-top: 70px;
+}
+.projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.projetos img{
+    width: 25%;
+    height: 25%;
+    border: solid 3px #F2B33D;
+    transition: ease-in-out .7s;
+    transform: scale(1.1);
+}
+.imgs-main{
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+.projetos img:hover{
+    width: 35%;
+    height: 35%;
+}
+.Skills-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#confirmação{
+    border-radius: 50%;
+    border: solid #F2B33D;
+    height: 30%;
+    width: 30%;
+    margin: 50px;
+}

@@ -1,0 +1,50 @@
+
+header{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: fixed;
+}
+.pure-menu-item{
+    margin-right: 10px;
+    transition-duration: 0.5s;
+}
+.pure-menu-item:hover{
+    background-color: #4e4081;
+}
+#nome{
+    font-size: 1.5rem;
+    font-family: 'Kdam Thmor Pro', sans-serif
+}
+#div-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2em;
+}
+
+.pure-menu-list{
+    display: flex;
+}
+
+#short-menu{
+    opacity: 100;
+}
+
+.pure-menu-item{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.pure-menu-link{
+    color: #b6ccdf;
+}
+
+.pure-g{
+    display: flex;
+    justify-content: center;
+}
+
+.pure-u-1-3{
+    background-color: #200973;
+    width: 100%;
+    height: 0.2em;
+}

@@ -1,0 +1,10 @@
+
+footer{
+    background-color: #ffffff;
+    padding-top: 30px;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    font-size: 5rem;
+}
