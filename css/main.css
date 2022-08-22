@@ -40,7 +40,6 @@ section{
 .text{
     display: flex;
     justify-content: center;
-    
 }
 .sobremim-container{
     display: flex;
@@ -67,7 +66,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 .projetos img{
     width: 25%;
@@ -98,4 +96,32 @@ h2{
     height: 30%;
     width: 30%;
     margin: 50px;
+}
+@media(max-width: 920px){
+    .sobremim-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    p{
+        font-size: 2rem;
+        color: #F2B33D;
+        width: 500px
+    }
+    #gif{
+        width:70%;
+    }
+    .projetos{
+        display: flex;
+        flex-direction: column;
+    }
+    .Skills-container{
+    display: none;
+    }
+    .Skills{
+        display: none;
+    }
+
 }

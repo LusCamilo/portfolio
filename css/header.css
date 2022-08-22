@@ -4,6 +4,9 @@ header{
     margin-left: 10px;
     position: fixed;
 }
+.menumenor{
+    visibility: hidden;
+}
 .pure-menu-item{
     margin-right: 10px;
     transition-duration: 0.5s;
